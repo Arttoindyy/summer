@@ -1,0 +1,6 @@
+FROM dpage/pgadmin4
+
+ENV PGADMIN_DEFAULT_EMAIL kritsada.jaib@northbkk.ac.th
+ENV PGADMIN_DEFAULT_PASSWORD 1234
+
+EXPOSE 80

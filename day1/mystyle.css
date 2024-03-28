@@ -1,0 +1,19 @@
+h1,h2{
+    font-size: large;
+    color: #c10000;
+    background-color: #e9c200;
+}
+.head-style{
+    color:#e9c200;
+    background-color: #c10000;
+}
+.menu {
+    list-style:none;
+}
+.menu li{
+    display: inline;
+    padding: 1rem;
+}
+.menu a{
+    text-decoration:none;
+}

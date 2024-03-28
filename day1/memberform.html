@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>member Form</title>
+    <link rel="stylesheet" href="mmbfstyle.css">
+</head>
+<body>
+    <h1>Member Form</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We offer a membership option tailored to meet your specific needs. To apply, please complete and submit the membership application form below. If you would like more information about membership in our organization or the application process, please specify your questions in the comment box below.</p><hr>
+    <form action="">
+        <label for="">Firstname*</label>
+        <input type="text" name="Firstname" id="" placeholder="Enter Your Firstname">&nbsp;&nbsp;
+        <label for="">Lastname*</label>
+        <input type="text" name="Lastname" id="" placeholder="Enter Your Lastname"><br><br>
+        <label for="">Email*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="Email" id="" placeholder="Enter Your Email">&nbsp;&nbsp;
+        <label for="">Phone*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" name="Phone" id="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <label for="">Address*</label>&nbsp;&nbsp;
+        <input type="text" name="Street Address" id="" placeholder="Street Address"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="City" id="" placeholder="City">
+        <input type="text" name="State" id="" placeholder="State"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" name="postal" id="" placeholder="postal/zipcode">
+        <select name="Country" id="" aria-placeholder="Country">
+            <option value="">Thailand</option>
+            <option value="">USA</option>
+            <option value="">United kingdom</option>
+            <option value="">poland</option>
+            <option value="">Iraq</option>
+            <option value="">palestine</option>
+        </select><br><br>
+        <label for="">Membershipplans:</label>
+        <input type="radio" name="Membership" id=""> Standard ($200/Year)
+        <input type="radio" name="Membership" id="">Silver ($450/Year)
+        <input type="radio" name="Membership" id="">Gold ($600/Year)<br><br>
+        <label for="">Comment:</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea placeholder="Comment...."></textarea>
+    </form>
+</body>
+</html>
